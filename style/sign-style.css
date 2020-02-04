@@ -1,0 +1,51 @@
+	body{
+				background: linear-gradient(to bottom, #66ff66 0%, #66ffcc 100%) fixed;
+			}
+			
+			form{
+				width:300px;
+				background: rgba(255,255,255,0.5);
+				border-radius:20px;
+				padding:30px;
+				text-align:center;
+				box-shadow: 2px 2px black;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%,-50%);
+			}
+			
+			input{
+				width: 250px;
+				padding:10px;
+				margin:10px;
+				border-radius:5px;
+				border:1px solid black;
+				
+			}
+			input[type=text]:focus {
+			
+			border:1px solid red;
+			    outline: none;
+			}
+			input[type=password]:focus {
+			
+			border:1px solid red;
+			    outline: none;
+			}
+
+			input[type="submit"]{
+				width:150px;
+				background:blue;
+				color:white;
+			}
+			
+			button{
+				width: 150px;
+				padding:10px;
+				margin:10px;
+				border-radius:5px;
+				border:1px solid gray;
+				background:blue;
+				color:white;
+			}
